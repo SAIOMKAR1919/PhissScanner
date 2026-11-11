@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PhishScanner | URL Checker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <h1>PhishScanner </h1>
+    <p>Check any URL before you click. Stay safe from phishing threats.</p>
+  </header>
+
+  <main>
+    <section class="scanner">
+      <input type="text" id="urlInput" placeholder="Enter a URL to scan..." />
+      <button onclick="scanURL()">Scan URL</button>
+    </section>
+
+    <section id="result" class="result hidden">
+      <h2>Scan Result</h2>
+      <div id="resultBox"></div>
+    </section>
+
+    <section class="education">
+      <h3>How to Spot a Phishing Link </h3>
+      <ul>
+        <li>Always check for HTTPS</li>
+        <li>Avoid IP-based or shortened URLs</li>
+        <li>Don’t trust urgent/threatening messages</li>
+        <li>Hover over links before clicking</li>
+      </ul>
+    </section>
+  </main>
+
+<footer>
+  <p>3rd Semester Major Project |
+    <a href="https://github.com/SAIOMKAR1919" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+  </p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
